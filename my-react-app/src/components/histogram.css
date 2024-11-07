@@ -1,0 +1,69 @@
+.hist {
+    padding: 1.5rem;
+    margin: 1rem;
+    background: rgba(0, 0, 0, 0.8);
+    border: 1px solid rgba(0, 0, 255, 0.3);
+    border-radius: 8px;
+    color: #00aaff;
+    text-shadow: 0 0 8px rgba(0, 170, 255, 0.5);
+    box-shadow: 0 0 20px rgba(0, 170, 255, 0.3), 0 0 40px rgba(0, 170, 255, 0.5);
+    font-family: 'Courier New', Courier, monospace;
+    transition: transform 0.2s ease-in-out;
+    text-align: center;
+}
+
+.hist:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px #00aaff, 0 0 20px rgba(0, 170, 255, 0.7);
+}
+
+.pie {
+    padding: 1.5rem;
+    margin: 1rem;
+    background: rgba(0, 0, 0, 0.8);
+    border: 1px solid rgba(0, 0, 255, 0.3);
+    border-radius: 8px;
+    color: #00aaff;
+    text-shadow: 0 0 8px rgba(0, 170, 255, 0.5);
+    box-shadow: 0 0 20px rgba(0, 170, 255, 0.3), 0 0 40px rgba(0, 170, 255, 0.5);
+    font-family: 'Courier New', Courier, monospace;
+    transition: transform 0.2s ease-in-out;
+    text-align: center;
+}
+
+.pie:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px #00aaff, 0 0 20px rgba(0, 170, 255, 0.7);
+}
+
+.radar {
+    padding: 1.5rem;
+    margin: 1rem;
+    background: rgba(0, 0, 0, 0.8);
+    border: 1px solid rgba(0, 0, 255, 0.3);
+    border-radius: 8px;
+    color: #00aaff;
+    text-shadow: 0 0 8px rgba(0, 170, 255, 0.5);
+    box-shadow: 0 0 20px rgba(0, 170, 255, 0.3), 0 0 40px rgba(0, 170, 255, 0.5);
+    font-family: 'Courier New', Courier, monospace;
+    transition: transform 0.2s ease-in-out;
+    text-align: center;
+}
+
+.radar:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px #00aaff, 0 0 20px rgba(0, 170, 255, 0.7);
+}
+
+.radar button  {
+        background-color: #007bff;  /* Primary color */
+        border: none;
+        border-radius: 20px;
+        color: white;
+        cursor: pointer;
+        margin: 10px;
+        font-size: 16px;
+        padding: 10px 20px;
+        transition: background-color 0.3s, transform 0.3s;
+}
+

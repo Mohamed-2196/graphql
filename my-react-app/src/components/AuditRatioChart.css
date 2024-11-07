@@ -1,0 +1,56 @@
+.audit-ratio-card {
+    max-width: 400px;
+    padding: 1.5rem;
+    margin: 1rem;
+    background: rgba(0, 0, 0, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    color: #00aaff; /* Change text color to blue */
+    text-shadow: 0 0 8px rgba(0, 170, 255, 0.5);
+    /* box-shadow: 0 0 20px rgba(0, 170, 255, 0.3), 0 0 40px rgba(0, 170, 255, 0.5); */
+    font-family: 'Courier New', Courier, monospace;
+    transition: transform 0.2s ease-in-out;
+}
+
+.audit-ratio-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px #00aaff, 0 0 20px rgba(0, 170, 255, 0.7);
+}
+
+.audit-ratio-card h2 {
+    font-size: 1.5rem;
+    color: #00aaff; /* Change heading color to blue */
+    text-shadow: 0 0 10px #00aaff, 0 0 20px rgba(0, 170, 255, 0.7);
+    margin-bottom: 1rem;
+}
+
+.audit-ratio-card p {
+    margin: 0.5rem 0;
+    color: rgba(0, 170, 255, 0.9); /* Change paragraph color to a lighter blue */
+}
+
+@media (max-width: 600px) {
+    .audit-ratio-card {
+        max-width: 90%;
+        margin: 1rem auto;
+        padding: 1rem;
+    }
+
+    .audit-ratio-card h2 {
+        font-size: 1.25rem;
+    }
+
+    .audit-ratio-card p {
+        font-size: 0.9rem;
+    }
+}
+
+/* AuditRatioChart.css */
+h3 {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  svg {
+    border: 1px solid #0b2c3a; /* Optional: add a border around the chart */
+  }
